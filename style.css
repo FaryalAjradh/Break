@@ -1,0 +1,144 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+body {
+    color: #40515e;
+    font-family: 'Montserrat';
+}
+
+p {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 3.5em;
+    font-weight: 400;
+    margin: 0.4em 0;
+    color: white;
+}
+  
+#title {
+    background-image: linear-gradient(#059DC0, #8FDDE7);
+    color: #fff;
+}
+
+#type {
+    font-size: 2.5em;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+    overflow: hidden;
+}
+
+.padding{
+    padding: 1% 5%;
+} 
+
+.titleimg {
+    width: 100%;
+    margin: 15px 20px 15px;
+}
+
+.headings {
+    color: #F85C70; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900; 
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.75em;
+}
+
+.icon {
+    color: #F85C70;
+    margin: auto;
+    float: left;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.icon-row {
+    margin: 20px auto;
+}
+
+.icon-text {
+    float: left;
+    display: inline-block;
+    width: -moz-calc(100% - 100px);
+    width: -webkit-calc(100% - 100px);
+    width: calc(100% - 100px);
+    height: 100%;
+}
+
+/* Nav Bar */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 12px;
+}
+
+.nav-item {
+    padding: 0 9px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/* Animation */
+.waves {
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+}
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height:40px;
+        min-height:40px;
+    }
+}
+
+
