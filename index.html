@@ -17,6 +17,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
+  <!-- google material icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
   <!--google font-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,900,700|Ubuntu&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
@@ -92,6 +95,9 @@
   </section>
 
   <!--About Us-->
+  <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>
   <section id="about-us">
     <div class="container-fluid padding">
       <div class="row">
@@ -101,7 +107,7 @@
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <h4 class="headings">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            <h4 id="headings">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
               voluptatum
               deleniti</h4>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
@@ -113,7 +119,7 @@
             <i class="fas fa-heart fa-5x icon"></i>
             <div class="icon-text">
               <h4 style="color: #059DC0;">At vero eos et accusamus et iusto odio</h4>
-              <p style="color: #F85C70;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              <p style="color: #003B73;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                 doloremque
                 laudantium, totam rem aperiam, eaque.</p>
             </div>
@@ -122,7 +128,7 @@
             <i class="fas fa-smile fa-5x icon"></i>
             <div class="icon-text">
               <h4 style="color: #059DC0;">At vero eos et accusamus et iusto odio</h4>
-              <p style="color: #F85C70;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              <p style="color: #003B73;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                 doloremque
                 laudantium, totam rem aperiam, eaque.</p>
             </div>
@@ -131,7 +137,7 @@
             <i class="fas fa-hand-holding-medical fa-5x icon"></i>
             <div class="icon-text">
               <h4 style="color: #059DC0;">At vero eos et accusamus et iusto odio</h4>
-              <p style="color: #F85C70;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              <p style="color: #003B73;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                 doloremque
                 laudantium, totam rem aperiam, eaque.</p>
             </div>
@@ -140,7 +146,7 @@
             <i class="fas fa-users fa-5x icon"></i>
             <div class="icon-text">
               <h4 style="color: #059DC0;">At vero eos et accusamus et iusto odio</h4>
-              <p style="color: #F85C70;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              <p style="color: #003B73;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                 doloremque
                 laudantium, totam rem aperiam, eaque.</p>
             </div>
@@ -148,8 +154,45 @@
         </div>
       </div>
     </div>
+
   </section>
+
+<section id="mental-health">
+  <h1>Hellow</h1>
+
+</section>
+<section id="contact-us">
+  <div class="container-fluid" style="background: #8FDDE7; padding-bottom: .5%;">
+    <!-- -image: linear-gradient(to bottom right, #059DC0, white) -->
+    <div class="row">
+      <h4 id="connect">Connect with Us!</h4>
+    </div>
+    <div class="row"> 
+      <div class="row" style="margin: auto;">
+        <a href="http://" target="_blank"><i class="fab fa-linkedin-in fa-2x connect-icon"></i></a>
+        <a href="http://" target="_blank"><i class="fab fa-twitter fa-2x connect-icon"></i></a>
+        <i class="fas fa-phone-alt fa-2x connect-icon" tool-tip-toggle="tooltip-demo" style="cursor: pointer;"
+        data-original-title="1234567890"></i>
+        <a href="http://" target="_blank"><i class="fab fa-instagram fa-2x connect-icon"></i></a>
+        <a href="mailto:break.mentalhealth@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x connect-icon"></i></a>
+        <i class="fas fa-map-marker-alt fa-2x connect-icon" tool-tip-toggle="tooltip-demo" style="cursor: pointer;"
+        data-original-title="Varanasi, Uttar Pradesh"></i>
+      </div>
+    </div>  
+    <div class="row">
+      <p style="margin: 10px auto;">Made with <span style="color: #BA0F30;">❤</span> by Break.</p>
+    </div>
+  </div>
+</section>
   <script src="typeAnim.js"></script>
+  <script src="scrollToTop.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('[tool-tip-toggle="tooltip-demo"]').tooltip({
+            placement : 'top'
+        });
+    });
+    </script>
 </body>
 
 </html>
