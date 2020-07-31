@@ -37,15 +37,6 @@ hr {
     font-size: 2.5em;
 }
 
-#headings {
-    color: #BA0F30; 
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 900; 
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: 1.75em;
-}
-
 #mental-health {
     width: 100%;
     height: 500px;
@@ -66,8 +57,19 @@ hr {
 } 
 
 .titleimg {
-    width: 100%;
-    margin: 15px 20px 15px;
+    width: 80%;
+    height: 80%;
+    /* margin: 15px 20px 15px 40px; */
+    margin: auto;
+}
+
+.headings {
+    color: #BA0F30; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900; 
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.75em;
 }
 
 /* Connect Section */
@@ -91,6 +93,39 @@ hr {
     width: 40px;
     padding: auto 30px;
     margin: auto 15px;
+}
+
+/* Mental health */
+.heartbeat {
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+ul.unordered-list
+{
+	list-style-type: none;
+}
+
+ul.unordered-list li
+{
+	text-indent: -1.5em;
+}
+
+ul.unordered-list li:before
+{
+	font-family: "Font Awesome 5 Free";
+	content: "\e800";
+	float: left;
+    width: 1.5em;
+    font-weight: 900;
+}
+
+ul.unordered-list li.heartbeat:before { 
+    content: "\f21e";
+    color: #BA0F30;
+    font-size: 2.0em;
 }
 
 /* Scroll up */
